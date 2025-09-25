@@ -1,6 +1,6 @@
 import os
 import requests
-from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip
+from moviepy import VideoFileClip, TextClip, CompositeVideoClip
 
 def download_video_from_drive():
     print("Downloading video from Google Drive...")
